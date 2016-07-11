@@ -1,0 +1,161 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made by lbdesigner.it
+ *
+ * Based on materializecss.com
+ */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - -
+   Typography
+   - - - - - - - - - - - - - - - - - - - - - - - */
+
+h1 {
+  margin-top: -5%;
+}
+
+@media (max-width:768px) {
+  h1 {
+    font-size: 2.85em;
+  }
+  h2 {
+    font-size: 2.6em;
+  }
+}
+
+h3 {
+  padding-top: 50px;
+}
+
+.service-title {
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1.64rem;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - -
+   Home
+   - - - - - - - - - - - - - - - - - - - - - - - */
+
+.intro {
+  height: 100vh;
+  text-align: center;
+}
+
+.primo-btn {
+  margin-right: 5px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.btn-large {
+  margin-bottom: 15px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - -
+   Start
+   - - - - - - - - - - - - - - - - - - - - - - - */
+
+.primo-start-1 {
+  height: 400px;
+  background: url(../img/service-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.primo-start-2 {
+  height: 400px;
+  background: url(../img/service-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - -
+   Service
+   - - - - - - - - - - - - - - - - - - - - - - - */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: 3.56rem;
+}
+
+.pad-bot {
+  padding-bottom: 50px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - -
+   Portfolio
+   - - - - - - - - - - - - - - - - - - - - - - - */
+
+.card:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - -
+   Team
+   - - - - - - - - - - - - - - - - - - - - - - - */
+
+.team-col {
+  margin-bottom: 30px;
+}
+
+.primo-team {
+  border-radius: 999px;
+  height: 250px;
+  width: auto;
+  -webkit-transition: 0.25s all linear;
+  transition: 0.25s all linear;
+}
+
+.primo-team:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width:480px) {
+  .primo-team {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.fa-circle {
+  -webkit-transition: 0.25s all linear;
+  transition: 0.25s all linear;
+}
+
+a:hover .fa-circle {
+  color: #80d8ff !important;
+  /* light-blue accent-1 */
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - -
+   Footer
+   - - - - - - - - - - - - - - - - - - - - - - - */
+
+#contact {
+  padding-top: 60px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

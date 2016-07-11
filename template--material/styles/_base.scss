@@ -1,0 +1,68 @@
+/*---------------------------------*\
+  Base
+\*---------------------------------*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+html {
+  font-size: 1rem;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: #999;
+  @include transition(color);
+  &:focus,
+  &:hover {color: #333;}
+}
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-right: auto;
+  margin-bottom: 1.3rem;
+  margin-left: auto;
+  max-width: 31.25rem;
+}
+blockquote {margin-bottom: 1.3rem;}
+footer {width: 100%;}
+html {font-size: 1em;}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 1.414rem;
+  margin-bottom: .5rem;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+h1 {
+  margin-top: 0;
+  font-size: 2.369rem;/*3.157em*/
+}
+h2 {font-size: 1.777rem;/*2.369rem*/}
+h3 {font-size: 1.333rem;/*1.777ren*/}
+//h4 {font-size: 1.333em;}
+p {
+  font-weight: 300;
+  color: #888;
+}
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+small {font-size: .75rem;}
